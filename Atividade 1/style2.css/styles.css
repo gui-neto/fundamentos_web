@@ -1,0 +1,48 @@
+/*estilos da pagina index.html*/
+body{
+    background-color: #97f0f0;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.lista-ordem{
+    display: inline-block;
+}
+
+#menu{
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-size: 25px;
+}
+
+#menu:hover{
+    color: rgb(255, 194, 40);
+}
+
+#direitos{
+    text-align: center;
+}
+.degrade-nome {
+    font-size: 48px; 
+    font-weight: bold;
+    position: relative;
+    white-space: nowrap; 
+}
+
+.cor1 { color: #FEE440; animation-delay: 0s; }
+.cor2 { color: #EF3340; animation-delay: 0.5s; }
+.cor3 { color: #00A1D9; animation-delay: 1s; }
+.cor5 { color: #F58220; animation-delay: 1.5s; }
+.cor6 { color: #FFD700; animation-delay: 2s; }
+.cor7 { color: #FEE440; animation-delay: 2.5s; }
+.cor8 { color: #EF3340; animation-delay: 3s; }
+.cor9 { color: #00A1D9; animation-delay: 3.5s; }
+.cor10 { color: #F58220; animation-delay: 4s; }
+.cor11 { color: #FFD700; animation-delay: 4.5s; }
+
+/*estilos da pagina concorra.html*/
