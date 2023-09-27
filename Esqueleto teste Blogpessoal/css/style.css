@@ -1,0 +1,179 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#blog {
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#blog:hover {
+    color: #00bcd4;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#bemvindo {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#f1 {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+aside {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#con1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.con2 {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #00bcd4;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: red;
+}
+
+nav {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#links {
+    list-style: none;
+    padding-left: 0;
+}
+
+#links li {
+    margin-bottom: 10px;
+}
+
+#links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#links li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+a:hover {
+    transition: color 0.3s ease-in-out;
+}  
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+}
+
+h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#sobre{
+    font-size: 32px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;  
+}
+
+#sobre:hover{
+    color: #00bcd4;
+}
+
+#guimartins{
+    font-size: 32px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;  
+}
+
+#guimartins:hover{
+    color: #00bcd4;
+}
