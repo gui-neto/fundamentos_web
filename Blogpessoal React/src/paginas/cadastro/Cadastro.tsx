@@ -5,7 +5,7 @@ import { cadastrarUsuario } from '../../services/Service'
 import './Cadastro.css'
 
 function Cadastro() {
-
+  
   let navigate = useNavigate()
 
   const [confirmaSenha, setConfirmaSenha] = useState<string>("")
